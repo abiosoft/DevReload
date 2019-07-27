@@ -1,6 +1,6 @@
 # DevReload
 
-![Nuget](https://img.shields.io/nuget/v/DevReload)
+[![Nuget](https://img.shields.io/nuget/v/DevReload)](https://www.nuget.org/packages/DevReload)
 
 Live reload for ASP.NET development.
 
