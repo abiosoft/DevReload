@@ -3,6 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RootNamespace>DevReload</RootNamespace>
+    <Description>Live reload for ASP.NET development</Description>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>Abiola Ibrahim</Authors>
+    <Copyright>2019</Copyright>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
+    <Owners>Abiola Ibrahim</Owners>
+    <PackageProjectUrl>https://github.com/abiosoft/DevReload</PackageProjectUrl>
+    <Summary>Live Reload for ASP.NET core development</Summary>
+    <PackageTags>Reload, LiveReload</PackageTags>
+    <Title>DevReload</Title>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
