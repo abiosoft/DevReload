@@ -8,15 +8,20 @@
     <Authors>Abiola Ibrahim</Authors>
     <Copyright>2019</Copyright>
     <DevelopmentDependency>true</DevelopmentDependency>
-    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <Owners>Abiola Ibrahim</Owners>
     <PackageProjectUrl>https://github.com/abiosoft/DevReload</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/abiosoft/DevReload</RepositoryUrl>
     <Summary>Live Reload for ASP.NET core development</Summary>
     <PackageTags>Reload, LiveReload</PackageTags>
     <Title>DevReload</Title>
     <PackOnBuild>true</PackOnBuild>
+    <PackageId>DevReload_ASP</PackageId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App">
       <PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>

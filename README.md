@@ -1,5 +1,7 @@
 # DevReload
 
+![Nuget](https://img.shields.io/nuget/v/DevReload)
+
 Live reload for ASP.NET development.
 
 ## Usage
@@ -44,7 +46,3 @@ app.UseDevReload(new DevReloadOptions
 ## Demonstration
 
 ![demonstration](./demo.gif)
-
-## Todo
-
-Publish to Nuget.
