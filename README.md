@@ -41,6 +41,10 @@ app.UseDevReload(new DevReloadOptions
 });
 ```
 
+## Demonstration
+
+![demonstration](./demo.gif)
+
 ## Todo
 
 Publish to Nuget.
