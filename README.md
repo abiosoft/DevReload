@@ -7,7 +7,7 @@ Live reload for ASP.NET core development.
 ## Install
 
 ```sh
-dotnet add package Abiosoft.DotNet.DevReload --version 0.1.1
+dotnet add package Abiosoft.DotNet.DevReload --version 0.1.2
 ```
 
 ## Usage
