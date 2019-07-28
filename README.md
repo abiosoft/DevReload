@@ -2,16 +2,29 @@
 
 [![Nuget](https://img.shields.io/nuget/v/Abiosoft.DotNet.DevReload)](https://www.nuget.org/packages/Abiosoft.DotNet.DevReload)
 
-Live reload for ASP.NET development.
+Live reload for ASP.NET core development.
+
+## Install
+
+```sh
+dotnet add package Abiosoft.DotNet.DevReload --version 0.1.1
+```
 
 ## Usage
 
 Use the middleware. Usually in `Startup.cs`
 
 ```csharp
-if (env.IsDevelopment())
+using Abiosoft.DotNet.DevReload;
+
+...
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
-    app.UseDevReload();
+    if (env.IsDevelopment())
+    {
+        app.UseDevReload();
+    }
+...
 }
 ```
 
@@ -19,7 +32,7 @@ Then, add the tag helper to your main layout file.
 
 ```cshtml
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@addTagHelper *, DevReload
+@addTagHelper *, Abiosoft.DotNet.DevReload
 
 ...
 
