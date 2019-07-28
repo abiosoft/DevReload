@@ -1,4 +1,4 @@
-namespace DevReload
+namespace Abiosoft.DotNet.DevReload
 {
     static class Js
     {

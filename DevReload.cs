@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 
-namespace DevReload
+namespace Abiosoft.DotNet.DevReload
 {
 
+    /// <summary>
+    /// Options to configure DevReload middleware.
+    /// </summary>
     public class DevReloadOptions
     {
         /// <summary>

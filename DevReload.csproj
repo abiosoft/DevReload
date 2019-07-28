@@ -2,12 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>DevReload</RootNamespace>
+    <RootNamespace>Abiosoft.DotNet.DevReload</RootNamespace>
     <Description>Live reload for ASP.NET development</Description>
-    <PackageVersion>0.1</PackageVersion>
+    <VersionPrefix>0.1.1</VersionPrefix>
     <Authors>Abiola Ibrahim</Authors>
     <Copyright>2019</Copyright>
-    <DevelopmentDependency>true</DevelopmentDependency>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <Owners>Abiola Ibrahim</Owners>
     <PackageProjectUrl>https://github.com/abiosoft/DevReload</PackageProjectUrl>
@@ -16,7 +15,8 @@
     <PackageTags>Reload, LiveReload</PackageTags>
     <Title>DevReload</Title>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>DevReload</PackageId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>Abiosoft.DotNet.DevReload</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">

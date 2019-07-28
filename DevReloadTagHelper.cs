@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace DevReload
+namespace Abiosoft.DotNet.DevReload
 {
     /// <summary>
     /// Tag helper to inject auto-reload script on webpage.

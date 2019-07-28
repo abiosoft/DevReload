@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 
-namespace DevReload
+namespace Abiosoft.DotNet.DevReload
 {
+
 
     public class DevReloadMiddleware
     {
@@ -17,6 +18,9 @@ namespace DevReload
         private FileSystemWatcher _watcher;
         private DevReloadOptions _options;
 
+        /// <summary>
+        /// DevReload middleware default DI constructor.
+        /// </summary>
         public DevReloadMiddleware(RequestDelegate next, IOptions<DevReloadOptions> options)
         {
             if (options == null)
