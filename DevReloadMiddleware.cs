@@ -8,7 +8,6 @@ using Microsoft.Extensions.Options;
 namespace Abiosoft.DotNet.DevReload
 {
 
-
     public class DevReloadMiddleware
     {
 
@@ -55,7 +54,6 @@ namespace Abiosoft.DotNet.DevReload
             return _next(c);
         }
 
-        [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
         private void Watch()
         {
 
