@@ -43,9 +43,13 @@ Then, add the tag helper to your main layout file.
 
 And that's all. Just use `dotnet watch run` and your browser will auto reload.
 
+## How
+
+DevReload monitors the ASP.NET app by long polling a REST endpoint and monitor static files with FileSystemWatcher.
+
 ## Configure
 
-You can modify the directories and file extensions.
+You can modify the directories and file extensions for static files only.
 
 ```csharp
 app.UseDevReload(new DevReloadOptions
