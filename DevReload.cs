@@ -63,7 +63,7 @@ namespace Abiosoft.DotNet.DevReload
             }
             if (options == null)
             {
-                throw new ArgumentNullException(nameof(app));
+                throw new ArgumentNullException(nameof(options));
             }
 
 
