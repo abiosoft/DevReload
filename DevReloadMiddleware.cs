@@ -57,7 +57,7 @@ namespace Abiosoft.DotNet.DevReload
         private void Watch()
         {
 
-            _watcher.Path = "./wwwroot";
+            _watcher.Path = _options.Directory;
 
             _watcher.NotifyFilter = NotifyFilters.LastWrite
                                  | NotifyFilters.FileName
