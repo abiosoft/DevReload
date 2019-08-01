@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Abiosoft.DotNet.DevReload</RootNamespace>
     <Description>Live reload for ASP.NET development</Description>
-    <VersionPrefix>0.1.3</VersionPrefix>
+    <VersionPrefix>0.1.4</VersionPrefix>
     <Authors>abiosoft</Authors>
     <Copyright>2019</Copyright>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>

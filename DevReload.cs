@@ -33,7 +33,7 @@ namespace Abiosoft.DotNet.DevReload
         public string[] StaticFileExtensions { get; set; }
     }
 
-    public static class MiddlwareHelpers
+    public static class MiddlewareHelpers
     {
         /// <summary>
         /// Use DevReload middleware with the default configurations.
