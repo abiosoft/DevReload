@@ -51,12 +51,14 @@ DevReload monitors the ASP.NET app by long polling a REST endpoint and monitor s
 
 You can modify the directories and file extensions for static files only.
 
+**_Note_** that live editing of `cshtml` files may require Razor Runtime Compilation service.
+
 ```csharp
 app.UseDevReload(new DevReloadOptions
 {
-    Directory = "./wwwroot",
+    Directory = ".",
     IgnoredSubDirectories = new string[] { ".git", ".node_modules" },
-    StaticFileExtensions = new string[] { "css", "js", "html" },
+    StaticFileExtensions = new string[] { "cshtml", "css", "js", "html" },
 });
 ```
 
